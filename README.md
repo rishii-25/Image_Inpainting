@@ -1,9 +1,17 @@
 # COLORAD (Color-Aware Region Diffusion)
 
+<p align="center">
+  <img src="Outputs/fpga_output_pic.jpeg" alt="FPGA Output - COLORAD Image Inpainting" width="900">
+</p>
+
+<p align="center">
+  <b>FPGA-accelerated output from the proposed image inpainting framework</b>
+</p>
+
 ![Status](https://img.shields.io/badge/Status-Ongoing%20Research-orange)
 ![Research](https://img.shields.io/badge/IIT%20Bhilai-Research%20Internship-blue)
 
-> This project is currently under active development as part of a Research Internship at IIT Bhilai. The repository will be updated regularly with new experiments, model improvements, and evaluation results.
+> This project is currently under active development as part of a Research Internship at IIT Bhilai. The repository will be updated regularly with new experiments, model improvements, FPGA results, and evaluation metrics.
 
 ## Overview
 
@@ -16,12 +24,12 @@ The framework integrates color-aware diffusion scheduling, MAE-guided contextual
 ## Research Association
 
 This research is being conducted as part of a Research Internship at IIT Bhilai in the field of Generative AI and Computer Vision.
+
 ---
 
 ## Dataset
 
 ### FFHQ Dataset
-
 
 - Dataset: Flickr-Faces-HQ (FFHQ)
 - Total Images: ~70,000
@@ -38,9 +46,8 @@ https://www.kaggle.com/datasets/gibi13/flickr-faces-hq-dataset-ffhq
 
 ## COLORAD Architecture
 
-
 <p align="center">
-  <img src="docs/architecture.png" width="900">
+  <img src="docs/architecture.png" width="900" alt="COLORAD Architecture">
 </p>
 
 *Figure: Overview of the proposed COLORAD framework, integrating color-aware diffusion scheduling, MAE-guided contextual conditioning, LoRA-enhanced U-Net denoising, and color harmonization.*
@@ -88,7 +95,6 @@ https://www.kaggle.com/datasets/gibi13/flickr-faces-hq-dataset-ffhq
 
 ---
 
-
 ## Key Features
 
 - Diffusion-based image inpainting
@@ -98,9 +104,9 @@ https://www.kaggle.com/datasets/gibi13/flickr-faces-hq-dataset-ffhq
 - LAB-space color harmonization
 - High-quality face restoration
 - Multi-stage training pipeline
+- FPGA-oriented inference and output evaluation
 
 ---
-
 
 ## Technologies Used
 
@@ -118,7 +124,7 @@ https://www.kaggle.com/datasets/gibi13/flickr-faces-hq-dataset-ffhq
 
 ## Results
 
-Training and evaluation are currently ongoing on the FFHQ dataset. Preliminary experiments demonstrate promising performance in context-aware facial image inpainting, structural preservation, and color harmonization. Comprehensive quantitative evaluation is currently in progress.
+Training and evaluation are currently ongoing on the FFHQ dataset. Preliminary experiments demonstrate promising performance in context-aware facial image inpainting, structural preservation, and color harmonization. FPGA-based output generation is also being explored as part of the hardware acceleration workflow.
 
 ---
 
@@ -129,10 +135,9 @@ Training and evaluation are currently ongoing on the FFHQ dataset. Preliminary e
 - Optimizing inference efficiency
 - Conducting detailed evaluation using FID, LPIPS, PSNR, and SSIM metrics
 - Exploring advanced diffusion-based conditioning strategies
-
+- Further optimizing the model for FPGA-based real-time inference
 
 ---
-
 
 ## Author
 
