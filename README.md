@@ -157,6 +157,10 @@ Python · PyTorch · Hugging Face Diffusers · VQ-VAE / Latent Diffusion · Viti
 - **CelebA-HQ**
 - **Places365**
 
+**Abhishek kumar Singh**
+
+B.Tech, Electrical and Electronics Engineering  
+National Institute of Technology Raipur
 Datasets are not included in this repository because of their size.
 
 ---
